@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Destiny Delectables</title>
+            <link rel = "stylesheet" href = "uncle.style.1.CSS" type = "text/css">
+	    <meta name= "keywords" content="HTML, forms, input, sample, Pluralsight">
+        </head>
+        <body>
+            <header>
+            <div><img src="img/FTS.Logo.gif" alt = "Destiny's Delectables"/></div>
+            <div><b>Coming soon</b>, check back for listings.</div>
+            </header>
+             <nav>
+                 <ul>
+                 <li><a href = "Destiny's Delectables.html">HOME</a></li>
+                 <li><a href = "Library.html">Gallery</a></li>
+                 <li><a href = "MemberLogin.html">Login</a></li>
+                 </ul>
+             </nav>
+            <section>
+            <p>Featured <b>videos</b> listed below:</p>
+            <p> Site temporarily down please choose from <a href= "https://www.moviefone.com"> 
+            alternate</a> check back in <span>24-48hrs</span><strong> for updates </strong>.</p>
+
+            <form method= "post" action= "SearchFile.cshtml" id="searchForm">
+ 	    Search Query <input type= "text/javascript" size="10" maxlength="20" id="searchQuery" name="searchQuery"></input>
+            Subscribe <input type= "checkbox" id= "newSubscriber" name= "newSubscriber" checked=""/></input>
+	    
+         <div class= "Clear">
+	 <input type= "submit" name="submit" value="Submit"style="text-decoration: bold; color: blue"></input>
+	 <input type="reset" value="Clear" style="text-decoration: bold; color: blue"></input>
+  	 </div>
+		<br/>
+                Language Preference:
+		<select id="langChoice" name="Select One" size = "2" multiple>
+                <optgroup label= "Language">
+                <option label= "English" value="Eng" ></option>
+                <option label= "Spanish" value="Span" ></option>
+	        </optgroup>
+		<input type="submit" name="submit" style="text-decoration: bold; color: green"></input>
+                <br/>
+            </form>
+            </section>
+            <footer> &copy; KRay Products LLC and Associates  since 2023</footer>
+        </body>
+     </html>
